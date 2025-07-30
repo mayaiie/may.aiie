@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: #ffffff;
     color: #333333;
     margin: 0;
@@ -7,39 +7,49 @@ body {
 }
 
 header {
-    background-color: #007BFF;
-    color: white;
-    padding: 20px;
+    background-color: #a3cfff;
+    color: #333333;
+    padding: 30px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav {
-    background-color: #0056b3;
+    background-color: #d6ebff;
     display: flex;
     justify-content: center;
+    padding: 10px 0;
+    gap: 20px;
 }
 
 nav a {
-    color: white;
-    padding: 14px 20px;
     text-decoration: none;
-    display: block;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #003f7f;
+    background-color: #b5dcff;
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
     max-width: 800px;
     margin: auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 footer {
-    background-color: #f2f2f2;
+    background-color: #a3cfff;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin-top: 40px;
-    color: #555;
+    color: #333;
+    font-size: 14px;
 }
+
